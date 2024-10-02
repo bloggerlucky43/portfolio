@@ -1,0 +1,134 @@
+body{
+    background-color: whitesmoke;
+}
+.nav{
+    justify-content: space-around;
+    background-color:#E6E6FA;
+    display: flex;
+}
+.front{
+    color: #6c0ba9;
+    font-weight: bolder;
+}
+.nav-bar{
+   margin-top: 1%;
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: grey;
+}
+.nav-bar ul li a:hover{
+    color: #6c0ba9;
+}
+.nav h2{
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 55%;
+    position: static;
+}
+#home{
+    color: #6c0ba9;
+}
+#home:hover{
+    color: grey;
+}
+.text{
+    margin-top: 10%;
+    margin-left: 4%;
+}
+.text h2{
+    font-size:xx-large;
+    margin-left: 0.5%;
+}
+.text h1{
+    font-size: 6rem;
+}
+img{
+    width: 15%;
+    border: solid #6c0ba9 1px;
+    padding: 18px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 6%;
+}
+.text p{
+    font-size: larger;
+    color: grey;
+    margin-left: 0.5%;
+}
+#touch{
+   color: white;
+   background-color: black;
+   padding: 8px;
+   border-radius: 6px;
+   width: 8%;
+   border: none;
+}
+#browse{
+   color: black;
+   background-color:gainsboro;
+   padding: 8px;
+   border-radius: 6px;
+   width: 10%;
+   border: none;
+}
+@media (max-width:768px){
+    .nav h2{
+        margin-left: 0%;
+        margin-right: 10%;
+        margin-top: 4%;
+    }
+    .nav-bar ul li a{
+        font-size: large;
+        margin-top: 4%;
+    }
+    .text h2{
+        font-size: large;
+        margin-top: 24%;
+    }
+    .text h1{
+        font-size: 3rem;;
+    }
+    img{
+        width: 25%;
+        border: solid #6c0ba9 1px;
+        padding: 9px;
+        border-radius: 50%;
+        margin-right: 4%;
+    }
+    .text p {
+        font-size: large;
+        margin-left: 0.5%;
+    }
+    #touch {
+        color: white;
+        background-color: black;
+        padding: 4px;
+        border-radius: 6px;
+        width: 16%;
+        border: none;
+    }
+    #browse {
+        color: black;
+        background-color: gainsboro;
+        padding: 4px;
+        border-radius: 6px;
+        width: 20%;
+        border: none;
+    }
+
+}
+@media (min-width: 768px) and (max-width:1024px) {
+    .text h2 {
+            font-size: large;
+
+        }
+}
